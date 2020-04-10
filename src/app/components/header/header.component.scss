@@ -1,0 +1,12 @@
+$base-selector: '.header';
+
+#{$base-selector} {
+    &_title {
+        color: blue;
+        font-size: 28px;
+        text-align: center;
+    }
+    &_caption {
+        text-align: center;
+    }
+}

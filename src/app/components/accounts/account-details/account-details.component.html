@@ -1,0 +1,6 @@
+<div>
+    <div [ngSwitch]="accountType">
+        <app-savings *ngSwitchCase="'savings'"></app-savings>
+        <app-loan *ngSwitchCase="'loan'"></app-loan>
+    </div>
+</div>

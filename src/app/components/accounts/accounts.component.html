@@ -1,0 +1,28 @@
+<div class="accounts">
+    <div class="accounts_account" *ngFor="let accountSummary of accountSummaryList?.accounts">
+        <h1 class="accounts_account_caption">
+            {{accountSummary.caption}}
+        </h1>
+        <div>
+            <table class="accounts_account_table">
+                <tr class="accounts_account_table_header">
+                   <th *ngFor="let detail of accountSummary.details">
+                       {{detail.label}}
+                   </th>
+                   <th>&nbsp;</th>
+                </tr>
+                <tr>
+                    <td *ngFor="let detail of accountSummary.details">
+                        <div *ngIf="detail.label === 'Balance'; else detailTemplate">
+                            {{detail.value | currency: 'INR'}}
+                        </div>
+                        <ng-template #detailTemplate>
+                            {{detail.value }}
+                        </ng-template>
+                    </td>
+                    <td class="accounts_account_details" [routerLink]="['/accountDetails/' + accountSummary.id]">Show Details</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

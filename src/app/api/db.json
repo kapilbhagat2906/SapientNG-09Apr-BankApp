@@ -1,0 +1,80 @@
+{
+  "accountSummary": {
+    "accounts": [
+      {
+        "id": "savings",
+        "type": "savings",
+        "caption": "Transaction Accounts",
+        "details": [
+          {
+            "label": "Account No./Name",
+            "value": "32355786463"
+          },
+          {
+            "label": "Branch",
+            "value": "Delhi"
+          },
+          {
+            "label": "Balance",
+            "value": "21208.39"
+          }
+        ]
+      },
+      {
+        "id": "loan",
+        "type": "loan",
+        "caption": "Loan Accounts",
+        "details": [
+          {
+            "label": "Account No./Name",
+            "value": "33840923412"
+          },
+          {
+            "label": "Branch",
+            "value": "Delhi"
+          },
+          {
+            "label": "Balance",
+            "value": "212086.39"
+          }
+        ]
+      }
+    ]
+  },
+  "accountDetails": [
+    {
+      "id": "saving",
+      "accountNumber": "32355786463",
+      "availableBalance": 21208.39,
+      "currency": "INR",
+      "description": "REGULAR SB CHQ-INDIVIDUALS URAL-INR",
+      "transactions": [
+        {
+          "date": "",
+          "narration": "",
+          "chequeNo": "",
+          "debit": "",
+          "credit": "",
+          "balance": ""
+        }
+      ]
+    },
+    {
+      "id": "saving",
+      "accountNumber": "32355786463",
+      "availableBalance": 21208.39,
+      "currency": "INR",
+      "description": "REGULAR SB CHQ-INDIVIDUALS URAL-INR",
+      "transactions": [
+        {
+          "date": "",
+          "narration": "",
+          "chequeNo": "",
+          "debit": "",
+          "credit": "",
+          "balance": ""
+        }
+      ]
+    }
+  ]
+}

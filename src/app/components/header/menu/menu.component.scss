@@ -1,0 +1,17 @@
+$base-selector: '.menu';
+
+#{$base-selector} {
+    list-style: none;
+    padding-top: 20px;
+
+    &_item {
+        display: inline-block;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin: 0 20px;
+        border: 1px solid #d3d3d3;
+        border-radius: 3px;
+        background: grey;
+        color: white;
+    }
+}

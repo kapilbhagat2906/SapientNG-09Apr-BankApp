@@ -1,0 +1,26 @@
+$base-selector: '.accounts';
+
+#{$base-selector} {
+    &_account {
+        padding: 20px;
+        &_caption {
+            text-align: center;
+            font-size: 22px;
+        }
+        &_table {
+            width: 50%;
+            min-width: 500px;
+            margin: auto;
+            &_header {
+                background: lightblue;
+            }
+            td, th {
+                text-align: center;
+                padding: 10px;
+            }
+        }
+        &_details {
+            cursor: pointer;
+        }
+    }
+}
